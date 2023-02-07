@@ -45,7 +45,7 @@ All these datasets can be downloaded by
 
 `ogb.nodeproppred.PygNodePropPredDataset`
 
-To run the codes successfully, the downloaded datasets should be placed in `\data`.
+To run the codes successfully, the downloaded datasets should be placed in `./data`.
 
 ## Methods
 
