@@ -37,7 +37,7 @@ torch.backends.cudnn.deterministic = True
 device = torch.device('cuda:{}'.format(args.cuda_device) if torch.cuda.is_available() else 'cpu')
 
 # load dataset
-dataset = Flickr(root='/home/luckytiger/TestDataset/Flickr')
+dataset = Flickr(root='./data/Flickr')
 data = dataset[0].to(device)
 
 

@@ -41,7 +41,7 @@ torch.backends.cudnn.deterministic = True
 device = torch.device('cuda:{}'.format(args.cuda_device) if torch.cuda.is_available() else 'cpu')
 
 # load dataset
-dataset = PygNodePropPredDataset(name=train_dataset, root='/home/luckytiger/TestDataset', transform=T.ToSparseTensor())
+dataset = PygNodePropPredDataset(name=train_dataset, root='./data', transform=T.ToSparseTensor())
 data = dataset[0]
 data.adj_t = data.adj_t.to_symmetric()
 data = data.to(device)
