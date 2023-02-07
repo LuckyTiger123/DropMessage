@@ -53,25 +53,25 @@ To run the codes successfully, the downloaded datasets should be placed in `./da
 
 It has been proposed by ["Improving neural networks by preventing co-adaptation of feature detectors"](https://arxiv.org/abs/1207.0580), which randomly masks some raw features.
 
-$\mathbf{\widetilde{X}}_{i,j}=\epsilon \mathbf{X}_{i,j} \quad s.t.\ \epsilon\sim Bernoulli(1-\delta)$
+![figure](./pic/formula1.jpg)
 
 ### DropEdge
 
 It has been proposed by ["DropEdge: Towards Deep Graph Convolutional Networks on Node Classification"](https://arxiv.org/abs/1907.10903), which randomly masks some edges.
 
-$\mathbf{\widetilde{A}}_{i,j}=\epsilon \mathbf{A}_{i,j} \quad s.t.\ \epsilon\sim Bernoulli(1-\delta)$
+![figure](./pic/formula2.jpg)
 
 ### DropNode
 
 It has been proposed by ["Graph Random Neural Network for Semi-Supervised Learning on Graphs"](https://arxiv.org/abs/2005.11079), which randomly masks some nodes.
 
-$\mathbf{\widetilde{X}}_{i}=\epsilon \mathbf{X}_{i} \quad s.t.\ \epsilon\sim Bernoulli(1-\delta)$
+![figure](./pic/formula3.jpg)
 
 ### DropMessage
 
 We propose DropMessage, which randomly masks some messages during the message-passing process.
 
-$\mathbf{\widetilde{M}}_{i,j}=\epsilon \mathbf{M}_{i,j} \quad s.t.\ \epsilon\sim Bernoulli(1-\delta)$
+![figure](./pic/formula4.jpg)
 
 ## Usage
 
