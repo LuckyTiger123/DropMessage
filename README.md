@@ -28,6 +28,8 @@ Graph Neural Networks (GNNs) are powerful tools for graph representation learnin
 
 `torch-spline-conv==1.2.1`
 
+`numpy==1.21.2`
+
 `ogb==1.3.2`
 
 These codes have been tested on the RTX 2080ti with python 3.8 and cuda 11.3.
