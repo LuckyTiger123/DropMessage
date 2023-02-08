@@ -17,11 +17,17 @@ Graph Neural Networks (GNNs) are powerful tools for graph representation learnin
 ## Dependencies
 
 `torch==1.10.0`
+
 `torch-geometric==2.0.2`
+
 `torch-cluster==1.5.9`
+
 `torch-scatter==2.0.9`
+
 `torch-sparse==0.6.12`
+
 `torch-spline-conv==1.2.1`
+
 `ogb==1.3.2`
 
 These codes have been tested on the RTX 2080ti with python 3.8 and cuda 11.3.
