@@ -8,7 +8,7 @@ python train.py -dr 0.9 -bb GCN -dm DropMessage -d CiteSeer -r 0
 python train.py -dr 0.15 -bb GCN -dm DropMessage -d PubMed -r 0
 
 # GCN Flickr
-python train_flickr.py -dr 0.20 -bb GCN -dm DropMessage -r 1
+python train_flickr.py -dr 0.20 -bb GCN -dm DropMessage -r 0
 
 # GCN ogbn-arxiv
 python train_ogb_arxiv.py -dr 0.20 -bb GCN -dm DropMessage -r 0
