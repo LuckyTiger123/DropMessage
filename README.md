@@ -162,9 +162,8 @@ sh run.sh
 @article{Fang2022DropMessageUR,
   title={DropMessage: Unifying Random Dropping for Graph Neural Networks},
   author={Taoran Fang and Zhiqing Xiao and Chunping Wang and Jiarong Xu and Xuan Yang and Yang Yang},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2204.10037}
+  booktitle={AAAI},
+  year={2023}
 }
 ```
 
